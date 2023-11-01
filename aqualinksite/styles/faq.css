@@ -1,0 +1,110 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #070600;
+}
+
+header {
+    background-color: #776871;
+    color: #e6af2e;
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: #e6af2e;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #a09abc;
+    border-radius: 5px;
+    box-shadow: #776871;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #a0eade;
+    margin-bottom: 10px;
+    font-style: Fuggles, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    color: #e6af2e;
+}
+
+
+nav a:hover {
+    color: #a0eade; 
+    font-weight: bold; 
+}
+
+h1 {
+    text-align: center; 
+    font-weight: bold; 
+    color: #070600; 
+    text-shadow: 2px 2px 4px #e6af2e; 
+}
+
+footer{
+    background-color: #776871;
+    color: #e6af2e;
+    padding: 10px;
+}
+
+footer:hover{
+    color: #a0eade;
+    font-style: fuggles;
+    flood-color: #a09abc;
+}
+
+.freshness{
+    float: left;
+}
+
+.faq-item {
+    background-image: url("images/freshfishfrozen.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* Text color for better readability on the image */
+  }
+  
+  .faq-item h2,
+  .faq-item h4,
+  .faq-item p {
+    background: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background to the text for better contrast */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .freshnes {
+    background: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background to the image container for better contrast */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+h5{
+    font-size: 16px;
+    color: #070600;
+}
