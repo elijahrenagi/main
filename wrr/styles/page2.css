@@ -1,0 +1,118 @@
+header {
+    background-color:#4daa57;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.logo{
+    width: 80px;
+}
+
+.logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav a{
+    text-align: center;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover{
+    background-color:#396E94 ;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.page2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.image-and-text {
+    display: flex;
+    align-items: center;
+    max-width: 800px; 
+    padding: 20px; 
+}
+.rivers {
+    float: left;
+    margin-right: 20px;
+}
+
+.msg {
+    overflow: hidden;
+}
+
+footer {
+    background-color: #396e94; 
+    color: #e0f2e9;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.footer-info {
+    flex: 3;
+    padding: 10px;
+    text-align: left;
+}
+
+.footer-info p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-links {
+    flex: 3;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #4daa57; 
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    font-style: oblique;
+    font-style: Croissant One", sans-serif";
+}
+
+.footer-social {
+    flex: 3; 
+    text-align: right;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #4daa57;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-social a:hover {
+    text-decoration: underline;
+}
